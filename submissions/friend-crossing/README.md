@@ -2,7 +2,7 @@
 
 Hop your own Rare Friends Generations NFT across an endless, changing world of roads, rivers and railways while staying ahead of the camera.
 
-**Builder / contact:** [@zongaaajj333](https://github.com/zongaaajj333) · contact through the submission PR.
+**Builder / contact:** [@zongaaajj333](https://github.com/zongaaajj333) · [X / Twitter: @papablad](https://x.com/papablad) · contact through X or the submission PR.
 
 **Category:** Character Spotlight
 
