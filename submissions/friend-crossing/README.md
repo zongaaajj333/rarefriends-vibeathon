@@ -8,11 +8,9 @@ Hop your own Rare Friends Generations NFT across an endless, changing world of r
 
 **Stack:** FriendSDK v0.1.2, React, TypeScript and Canvas 2D.
 
-**Source code:** [Public source snapshot](https://github.com/zongaaajj333/friend-crossing/tree/8eee4936277f3ac01e8b4c280f529a5ab0277c28) · [Game source and instructions](https://github.com/zongaaajj333/friend-crossing/blob/8eee4936277f3ac01e8b4c280f529a5ab0277c28/games/friend-crossing/README.md).
+**Source code:** [Public source snapshot](https://github.com/zongaaajj333/friend-crossing/tree/6808d0b442a8bcc7f9882559f4163268f98b6232) · [Game source and instructions](https://github.com/zongaaajj333/friend-crossing/blob/6808d0b442a8bcc7f9882559f4163268f98b6232/games/friend-crossing/README.md).
 
-**Playable preview:** https://rare-friend-crossing.slacherbh.chatgpt.site — currently private; public access must be enabled before submission.
-
-> Draft entry: the source is public. Public access to the hosted preview is still pending. No competition PR has been opened.
+**Public playable preview:** [Play Friend Crossing](https://rare-friend-crossing.slacherbh.chatgpt.site).
 
 ## What we built
 
@@ -40,7 +38,7 @@ From the source repository root with Node.js 22.18+:
 ```sh
 git clone https://github.com/zongaaajj333/friend-crossing.git
 cd friend-crossing
-git checkout 8eee4936277f3ac01e8b4c280f529a5ab0277c28
+git checkout 6808d0b442a8bcc7f9882559f4163268f98b6232
 npm ci
 npm run build
 node scripts/dev-game.mjs dev games/friend-crossing --host 0.0.0.0 --port 4173
@@ -62,7 +60,7 @@ The runtime requires a chance-game definition, so `game.json` contains an unused
 
 ## Checks
 
-Source revision: [`8eee493`](https://github.com/zongaaajj333/friend-crossing/commit/8eee4936277f3ac01e8b4c280f529a5ab0277c28). The published source was installed and built afresh; all eight generated HTML/JavaScript/CSS files matched the approved hosted build byte for byte. These checks passed:
+Source revision: [`6808d0b`](https://github.com/zongaaajj333/friend-crossing/commit/6808d0b442a8bcc7f9882559f4163268f98b6232). The published source was installed and built afresh; all eight generated HTML/JavaScript/CSS files matched the approved hosted build byte for byte. These checks passed:
 
 - TypeScript check, static build and FriendSDK game validation.
 - Engine regressions for animated hops, buffered input, pause, log carry, collisions during movement, speed limits, biome transitions, safe banks, idle death and train warnings/collisions.
@@ -92,4 +90,4 @@ Best score resets on reload or Friend change. No account save or global leaderbo
 
 ## Credits
 
-[FriendSDK](https://github.com/spokesz/friendsdk) v0.1.2 is retained under Apache-2.0. Original Rare Friends character sprites are read through the SDK and remain unchanged; see [LICENSE](https://github.com/zongaaajj333/friend-crossing/blob/8eee4936277f3ac01e8b4c280f529a5ab0277c28/LICENSE) and [NOTICE.md](https://github.com/zongaaajj333/friend-crossing/blob/8eee4936277f3ac01e8b4c280f529a5ab0277c28/NOTICE.md) for attribution and artwork terms. The procedural world, renderer and crossing mechanics were created for this project with AI coding assistance. No Crossy Road code, artwork or branding is included.
+[FriendSDK](https://github.com/spokesz/friendsdk) v0.1.2 is retained under Apache-2.0. Original Rare Friends character sprites are read through the SDK and remain unchanged; see [LICENSE](https://github.com/zongaaajj333/friend-crossing/blob/6808d0b442a8bcc7f9882559f4163268f98b6232/LICENSE) and [NOTICE.md](https://github.com/zongaaajj333/friend-crossing/blob/6808d0b442a8bcc7f9882559f4163268f98b6232/NOTICE.md) for attribution and artwork terms. The procedural world, renderer and crossing mechanics were created for this project with AI coding assistance. No Crossy Road code, artwork or branding is included.
